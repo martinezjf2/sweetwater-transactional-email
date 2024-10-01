@@ -25,7 +25,7 @@
         <mj-column padding="15px 0 5px" width="200px">
           <mj-table css-class="logo-table" padding="0">
             <td style="text-align: center;">
-              <img src="/assets/logo.png" width="170px" style="padding: 0px;" align="center" />
+              <img src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/logo.png" width="170px" style="padding: 0px;" align="center" />
             </td>
           </mj-table>
           <!-- <mj-image src="/assets/logo.png" alt="sweetwater logo" width="170px" align="center" css-class="logo" /> -->
@@ -421,7 +421,7 @@
       <mj-section>
         <mj-group>
           <mj-column>
-            <mj-image src="/assets/rep.jpg" alt="rep image" align="center" width="180px" />
+            <mj-image src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/rep.jpg" alt="rep image" align="center" width="180px" />
           </mj-column>
           <mj-column padding-top="30px">
             <mj-text padding="0 0 5px" font-weight="600" font-size="16px">
@@ -440,14 +440,14 @@
               Fort Wayne, IN 46818
             </mj-text>
             <mj-text padding="3px 0 4px" font-weight="600">
-              <img src="/assets/phone.png" alt="phone image" width="22px" style="padding: 1px" /> (800) 222-4700 x1355
+              <img src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/phone.png" alt="phone image" width="22px" style="padding: 1px" /> (800) 222-4700 x1355
             </mj-text>
             <mj-table padding="0px 0">
               <td>
-                <img src="/assets/email.png" alt="email image" width="20px" /> Email Me
+                <img src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/email.png" alt="email image" width="20px" /> Email Me
               </td>
               <td>
-                <img src="/assets/person.png" alt="person image" width="20px" /> View My Bio
+                <img src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/person.png" alt="person image" width="20px" /> View My Bio
               </td>
             </mj-table>
           </mj-column>
