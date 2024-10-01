@@ -1,0 +1,459 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+
+      }
+    </mj-style>
+
+
+
+    <!-- The inline style will be used for reusability throughout the email. -->
+    <mj-style inline="inline">
+      td.logo-table {
+        padding: 0;
+        text-align: center !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-wrapper background-color="white">
+
+
+      <mj-section padding="0px 0px 0px">
+        <mj-column padding="15px 0 5px" width="200px">
+          <mj-table css-class="logo-table" padding="0">
+            <td style="text-align: center;">
+              <img src="/assets/logo.png" width="170px" style="padding: 0px;" align="center" />
+            </td>
+          </mj-table>
+          <!-- <mj-image src="/assets/logo.png" alt="sweetwater logo" width="170px" align="center" css-class="logo" /> -->
+        </mj-column>
+
+
+
+        <mj-column padding="10px 0px" width="400px">
+          <mj-table padding="0px 0px">
+            <tr>
+              <td style="text-align: right; color: #2e88ae">(800) 222-4700</td>
+              <td style="text-align: center; color: #e7e7e7">|</td>
+              <td style="text-align: left; color: #2e88ae">(260) 432-8176</td>
+            </tr>
+            <tr style="height: 5px;">
+              <td colspan="3"></td>
+            </tr>
+            <tr>
+              <td style="text-align: center; color: #575757;">What's New</td>
+              <td style="text-align: center; color: #575757;">DealZone</td>
+              <td style="text-align: center; color: #575757; font-weight: 600">Shop</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <!-- Divider -->
+      <mj-section>
+        <mj-column>
+          <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+      <!-- End of Divider -->
+
+
+
+
+
+      <mj-section padding="10px 0">
+        <mj-column>
+          <mj-text padding-bottom="10px">
+            Hello John Smith,
+          </mj-text>
+          <mj-text line-height="1.7">
+            Thank you for your order — we always appreciate your decision to choose Sweetwater. As a returning customer, you know that we'll make sure your order gets to you quickly and efficiently. And of course, we'll send shipping and delivery confirmation to keep you in the loop the whole way. Please note that, while Sweetwater is shipping orders at our usual prompt pace, some carriers may be experiencing delays and delivery dates could change. As always, if you have any questions, you can reach me at (800) 222-4700 x1355 or example@sweetwater.com.
+          </mj-text>
+          <mj-text padding-top="15px">
+            Thanks again,
+          </mj-text>
+          <mj-text padding-top="0">
+            Albert and the Sweetwater Team
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+
+
+
+      <mj-section padding="5px 0 25px">
+        <mj-column>
+          <mj-text font-weight="bold" font-size="18px">
+            Your Order number is L123456789
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-color="#eeebe7" padding="5px 0">
+        <mj-group>
+          <mj-column>
+            <mj-text font-weight="bold" letter-spacing=".5px">
+              Billing Information
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text font-weight="bold" letter-spacing=".5px">
+              Shipping Information
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+      <mj-section>
+        <mj-group>
+          <mj-column>
+            <mj-text line-height="1.5" padding-top="0">
+              John Smith<br>
+              123 Example St<br>
+              Freeport, NY 11525<br>
+              USA<br>
+              E-mail: example@gmail.com<br>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text line-height="1.5" padding-top="0">
+              John Smith<br>
+              123 Example St.<br>
+              Freeport, NY 11525<br>
+              USA<br>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+
+
+      <mj-section background-color="#eeebe7" padding="5px 0">
+        <mj-group>
+          <mj-column>
+            <mj-text font-weight="bold" letter-spacing=".5px">
+              Payment Information
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text font-weight="bold" letter-spacing=".5px">
+              Shipping Method
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+
+      <mj-section>
+        <mj-group>
+          <mj-column>
+            <mj-text line-height="1.5" padding-top="0">
+              Card: ************7890
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text line-height="1.5" padding-top="0">
+              Free Shipping + Require Signature for Delivery
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+
+
+
+
+
+      <mj-section background-color="#eeebe7" padding="5px 0">
+        <mj-group>
+          <mj-column width="40%">
+            <mj-text font-weight="bold" letter-spacing=".5px">
+              Product
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text font-weight="bold" letter-spacing=".5px" align="right">
+              QTY
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text font-weight="bold" letter-spacing=".5px" align="right">
+              Price
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text font-weight="bold" letter-spacing=".5px" align="right">
+              Total
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+
+
+      <mj-section padding="5px 0 0px">
+        <mj-group>
+          <mj-column width="50%">
+            <mj-text letter-spacing=".5px" line-height="1.5">
+              Gator G-PROR-4U-19 Pro Series Rolling Rack Case
+            </mj-text>
+            <mj-table padding-top="0" font-size="10px" color="#279c4f">
+              <td>✓ Free Sweetwater Support</td>
+              <td>✓ Free 2-Year Warranty</td>
+            </mj-table>
+          </mj-column>
+          <mj-column width="10%">
+            <mj-text letter-spacing=".5px" align="right">
+              1
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text letter-spacing=".5px" align="right">
+              $231.99
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text letter-spacing=".5px" align="right">
+              $231.99
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+      <mj-section padding="10px 0px">
+        <mj-column>
+          <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section padding="0">
+        <mj-group>
+          <mj-column width="50%">
+            <mj-text letter-spacing=".5px" line-height="1.5" padding-bottom="6px">
+              PreSonus StudioLive 16R 16-channel Rackmount Digital Mixer
+            </mj-text>
+            <mj-text letter-spacing=".3px" font-size="10px" padding-top="0px" padding-bottom="4px" color="#fb1c00">
+              <span style="font-weight: 700">Promo: </span> $300.00 Off!
+            </mj-text>
+            <mj-table padding-top="0" font-size="10px" color="#279c4f">
+              <td>✓ Free Sweetwater Support</td>
+              <td>✓ Free 2-Year Warranty</td>
+            </mj-table>
+          </mj-column>
+          <mj-column width="10%">
+            <mj-text letter-spacing=".5px" align="right">
+              1
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text letter-spacing=".5px" align="right">
+              $899.99
+            </mj-text>
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text letter-spacing=".5px" align="right">
+              $899.99
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+
+      <mj-section padding="5px 0px">
+        <mj-column>
+          <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section padding="0 0 5px">
+        <mj-group>
+          <mj-column width="60%">
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text align="right" letter-spacing=".5px">
+              Subtotal:
+            </mj-text>
+
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text align="right" letter-spacing=".5px">
+              $1131.98
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="0px">
+        <mj-group>
+          <mj-column width="40%">
+          </mj-column>
+          <mj-column width="40%">
+            <mj-text align="right" letter-spacing=".5px">
+              Shipping & Handling:
+            </mj-text>
+
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text align="right" letter-spacing=".5px">
+              $36.10
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-group>
+          <mj-column width="50%">
+          </mj-column>
+          <mj-column width="30%">
+            <mj-text align="right" color="#fb1c00" font-weight="700" letter-spacing=".5px">
+              FREE SHIPPING
+            </mj-text>
+
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text align="right" letter-spacing=".5px" color="#fb1c00" font-weight="700">
+              -$36.10
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="5px 0px">
+        <mj-column>
+          <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section padding="0">
+        <mj-group>
+          <mj-column width="50%">
+          </mj-column>
+          <mj-column width="30%">
+            <mj-text align="right" letter-spacing=".5px">
+              Total Before Tax:
+            </mj-text>
+
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text align="right" letter-spacing=".5px">
+              $1,131.98
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-group>
+          <mj-column width="50%">
+          </mj-column>
+          <mj-column width="30%">
+            <mj-text align="right" letter-spacing=".5px">
+              Estimated Tax
+            </mj-text>
+
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text align="right" letter-spacing=".5px">
+              $0.00
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="5px 0px">
+        <mj-column>
+          <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section padding="0">
+        <mj-group>
+          <mj-column width="50%">
+          </mj-column>
+          <mj-column width="30%">
+            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="14px">
+              Order Total:
+            </mj-text>
+
+          </mj-column>
+          <mj-column width="20%">
+            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="14px">
+              $1,131.98
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+
+      <mj-section padding="10px 0px">
+        <mj-column>
+          <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
+        </mj-column>
+      </mj-section>
+
+
+
+
+      <mj-section>
+        <mj-group>
+          <mj-column>
+            <mj-image src="/assets/rep.jpg" alt="rep image" align="center" width="180px" />
+          </mj-column>
+          <mj-column padding-top="30px">
+            <mj-text padding="0 0 5px" font-weight="600" font-size="16px">
+              Albert Einstein
+            </mj-text>
+            <mj-text padding="0 0 3px" font-style="italic">
+              Sales Engineer
+            </mj-text>
+            <mj-text padding="0 0 3px" font-weight="500">
+              Sweetwater Sound, LLC
+            </mj-text>
+            <mj-text padding="0 0 3px">
+              5501 US Hwy 30 W
+            </mj-text>
+            <mj-text padding="0 0 3px">
+              Fort Wayne, IN 46818
+            </mj-text>
+            <mj-text padding="3px 0 4px" font-weight="600">
+              <img src="/assets/phone.png" alt="phone image" width="22px" style="padding: 1px" /> (800) 222-4700 x1355
+            </mj-text>
+            <mj-table padding="0px 0">
+              <td>
+                <img src="/assets/email.png" alt="email image" width="20px" /> Email Me
+              </td>
+              <td>
+                <img src="/assets/person.png" alt="person image" width="20px" /> View My Bio
+              </td>
+            </mj-table>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
