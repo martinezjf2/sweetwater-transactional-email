@@ -34,7 +34,7 @@
 
 
         <mj-column padding="10px 0px" width="400px">
-          <mj-table padding="0px 0px">
+          <!-- <mj-table padding="0px 0px">
             <tr>
               <td style="text-align: right; color: #2e88ae">(800) 222-4700</td>
               <td style="text-align: center; color: #e7e7e7">|</td>
@@ -48,7 +48,7 @@
               <td style="text-align: center; color: #575757;">DealZone</td>
               <td style="text-align: center; color: #575757; font-weight: 600">Shop</td>
             </tr>
-          </mj-table>
+          </mj-table> -->
         </mj-column>
       </mj-section>
 
@@ -211,7 +211,7 @@
       <mj-section padding="5px 0 0px">
         <mj-group>
           <mj-column width="50%">
-            <mj-text letter-spacing=".5px" line-height="1.5">
+            <mj-text letter-spacing=".5px" line-height="1.5" font-size="12px">
               Gator G-PROR-4U-19 Pro Series Rolling Rack Case
             </mj-text>
             <mj-table padding-top="0" font-size="10px" color="#279c4f">
@@ -220,17 +220,17 @@
             </mj-table>
           </mj-column>
           <mj-column width="10%">
-            <mj-text letter-spacing=".5px" align="right">
+            <mj-text letter-spacing=".5px" align="right" font-size="12px">
               1
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right">
+            <mj-text letter-spacing=".5px" align="right" font-size="12px">
               $231.99
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right">
+            <mj-text letter-spacing=".5px" align="right" font-size="12px">
               $231.99
             </mj-text>
           </mj-column>
@@ -248,7 +248,7 @@
       <mj-section padding="0">
         <mj-group>
           <mj-column width="50%">
-            <mj-text letter-spacing=".5px" line-height="1.5" padding-bottom="6px">
+            <mj-text letter-spacing=".5px" line-height="1.5" padding-bottom="6px" font-size="12px">
               PreSonus StudioLive 16R 16-channel Rackmount Digital Mixer
             </mj-text>
             <mj-text letter-spacing=".3px" font-size="10px" padding-top="0px" padding-bottom="4px" color="#fb1c00">
@@ -260,17 +260,17 @@
             </mj-table>
           </mj-column>
           <mj-column width="10%">
-            <mj-text letter-spacing=".5px" align="right">
+            <mj-text letter-spacing=".5px" align="right" font-size="12px">
               1
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right">
+            <mj-text letter-spacing=".5px" align="right" font-size="12px">
               $899.99
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right">
+            <mj-text letter-spacing=".5px" align="right" font-size="12px">
               $899.99
             </mj-text>
           </mj-column>
@@ -291,13 +291,13 @@
           <mj-column width="60%">
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               Subtotal:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               $1131.98
             </mj-text>
           </mj-column>
@@ -309,13 +309,13 @@
           <mj-column width="40%">
           </mj-column>
           <mj-column width="40%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               Shipping & Handling:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               $36.10
             </mj-text>
           </mj-column>
@@ -327,13 +327,13 @@
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" color="#fb1c00" font-weight="700" letter-spacing=".5px">
+            <mj-text align="right" color="#fb1c00" font-weight="700" letter-spacing=".5px" font-size="12px">
               FREE SHIPPING
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" color="#fb1c00" font-weight="700">
+            <mj-text align="right" letter-spacing=".5px" color="#fb1c00" font-weight="700" font-size="12px">
               -$36.10
             </mj-text>
           </mj-column>
@@ -352,13 +352,13 @@
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               Total Before Tax:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               $1,131.98
             </mj-text>
           </mj-column>
@@ -370,13 +370,13 @@
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               Estimated Tax
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px">
               $0.00
             </mj-text>
           </mj-column>
@@ -395,13 +395,13 @@
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="14px">
+            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="13px">
               Order Total:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="14px">
+            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="13px">
               $1,131.98
             </mj-text>
           </mj-column>
@@ -427,26 +427,26 @@
             <mj-text padding="0 0 5px" font-weight="600" font-size="16px">
               Albert Einstein
             </mj-text>
-            <mj-text padding="0 0 3px" font-style="italic">
+            <mj-text padding="0 0 3px" font-style="italic" font-size="12px">
               Sales Engineer
             </mj-text>
-            <mj-text padding="0 0 3px" font-weight="500">
+            <mj-text padding="0 0 3px" font-weight="500" font-size="12px">
               Sweetwater Sound, LLC
             </mj-text>
-            <mj-text padding="0 0 3px">
+            <mj-text padding="0 0 3px" font-size="12px">
               5501 US Hwy 30 W
             </mj-text>
-            <mj-text padding="0 0 3px">
+            <mj-text padding="0 0 3px" font-size="12px">
               Fort Wayne, IN 46818
             </mj-text>
-            <mj-text padding="3px 0 4px" font-weight="600">
+            <mj-text padding="3px 0 4px" font-weight="600" font-size="12px">
               <img src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/phone.png" alt="phone image" width="22px" style="padding: 1px" /> (800) 222-4700 x1355
             </mj-text>
             <mj-table padding="0px 0">
-              <td>
+              <td style="font-size: 12px">
                 <img src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/email.png" alt="email image" width="20px" /> Email Me
               </td>
-              <td>
+              <td style="font-size: 12px">
                 <img src="https://sweetwater-transactional-email-clone.s3.amazonaws.com/person.png" alt="person image" width="20px" /> View My Bio
               </td>
             </mj-table>
