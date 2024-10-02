@@ -101,78 +101,84 @@
       </mj-section>
 
 
-      <mj-section background-color="#eeebe7" padding="5px 0">
-        <mj-group>
-          <mj-column>
-            <mj-text font-weight="bold" letter-spacing=".5px">
-              Billing Information
-            </mj-text>
-          </mj-column>
-          <mj-column>
-            <mj-text font-weight="bold" letter-spacing=".5px">
-              Shipping Information
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-
-
-      <mj-section>
-        <mj-group>
-          <mj-column>
-            <mj-text line-height="1.5" padding-top="0">
-              John Smith<br>
-              123 Example St<br>
-              Freeport, NY 11525<br>
-              USA<br>
-              E-mail: example@gmail.com<br>
-            </mj-text>
-          </mj-column>
-          <mj-column>
-            <mj-text line-height="1.5" padding-top="0">
-              John Smith<br>
-              123 Example St.<br>
-              Freeport, NY 11525<br>
-              USA<br>
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
 
 
 
 
-      <mj-section background-color="#eeebe7" padding="5px 0">
-        <mj-group>
-          <mj-column>
-            <mj-text font-weight="bold" letter-spacing=".5px">
-              Payment Information
-            </mj-text>
-          </mj-column>
-          <mj-column>
-            <mj-text font-weight="bold" letter-spacing=".5px">
-              Shipping Method
-            </mj-text>
-          </mj-column>
-        </mj-group>
+      <mj-section padding="0">
+        <mj-column width="50%">
+          <mj-table padding="0 0 20px">
+            <tr>
+              <th style="text-align: left; background-color: #eeebe7; padding: 10px 25px; letter-spacing: .5px;">Billing Information</th>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 10px 25px 0; letter-spacing: .5px;">John Smith</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;">123 Example St.</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;">Freeport, New York 11523</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;">USA</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;">Email: example@gmail.com</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-table padding="0 0 20px">
+            <tr>
+              <th style="text-align: left; background-color: #eeebe7; padding: 10px 25px; letter-spacing: .5px;">Shipping Information</th>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 10px 25px 0; letter-spacing: .5px;">John Smith</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;">123 Example St.</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;">Freeport, New York 11523</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;">USA</td>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 0px 25px; letter-spacing: .5px;"></td>
+            </tr>
+          </mj-table>
+        </mj-column>
       </mj-section>
 
 
 
-      <mj-section>
-        <mj-group>
-          <mj-column>
-            <mj-text line-height="1.5" padding-top="0">
-              Card: ************7890
-            </mj-text>
-          </mj-column>
-          <mj-column>
-            <mj-text line-height="1.5" padding-top="0">
-              Free Shipping + Require Signature for Delivery
-            </mj-text>
-          </mj-column>
-        </mj-group>
+
+
+      <mj-section padding="0">
+        <mj-column width="50%">
+          <mj-table padding="0 0 20px">
+            <tr>
+              <th style="text-align: left; background-color: #eeebe7; padding: 10px 25px; letter-spacing: .5px;">Payment Information</th>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 10px 25px 0; letter-spacing: .5px;">Card: ************7890</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-table padding="0 0 20px">
+            <tr>
+              <th style="text-align: left; background-color: #eeebe7; padding: 10px 25px; letter-spacing: .5px;">Shipping Method</th>
+            </tr>
+            <tr>
+              <td style="text-align: left; padding: 10px 25px 0; letter-spacing: .5px;">Free Shipping + Require Signature for Delivery</td>
+            </tr>
+          </mj-table>
+        </mj-column>
       </mj-section>
+
 
 
 
@@ -193,12 +199,12 @@
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text font-weight="bold" letter-spacing=".5px" align="right">
+            <mj-text font-weight="bold" letter-spacing=".5px" align="center">
               Price
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text font-weight="bold" letter-spacing=".5px" align="right">
+            <mj-text font-weight="bold" letter-spacing=".5px" align="center">
               Total
             </mj-text>
           </mj-column>
@@ -220,17 +226,17 @@
             </mj-table>
           </mj-column>
           <mj-column width="10%">
-            <mj-text letter-spacing=".5px" align="right" font-size="12px">
+            <mj-text letter-spacing=".5px" align="center" font-size="12px" padding-left="0" padding-right="0">
               1
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right" font-size="12px">
+            <mj-text letter-spacing=".5px" align="center" font-size="12px" padding-left="0" padding-right="0">
               $231.99
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right" font-size="12px">
+            <mj-text letter-spacing=".5px" align="center" font-size="12px" padding-left="0" padding-right="0">
               $231.99
             </mj-text>
           </mj-column>
@@ -260,17 +266,17 @@
             </mj-table>
           </mj-column>
           <mj-column width="10%">
-            <mj-text letter-spacing=".5px" align="right" font-size="12px">
+            <mj-text letter-spacing=".5px" align="center" font-size="12px" padding-left="0" padding-right="0">
               1
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right" font-size="12px">
+            <mj-text letter-spacing=".5px" align="center" font-size="12px" padding-left="0" padding-right="0">
               $899.99
             </mj-text>
           </mj-column>
           <mj-column width="20%">
-            <mj-text letter-spacing=".5px" align="right" font-size="12px">
+            <mj-text letter-spacing=".5px" align="center" font-size="12px" padding-left="0" padding-right="0">
               $899.99
             </mj-text>
           </mj-column>
@@ -286,59 +292,61 @@
       </mj-section>
 
 
-      <mj-section padding="0 0 5px">
+      <mj-section padding="0 40px 5px 0">
         <mj-group>
           <mj-column width="60%">
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
               Subtotal:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
               $1131.98
             </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>
 
-      <mj-section padding="0px">
+      <mj-section padding="0 40px 5px 0">
         <mj-group>
-          <mj-column width="40%">
+          <mj-column width="50%">
           </mj-column>
-          <mj-column width="40%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
+          <mj-column width="30%">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
               Shipping & Handling:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
               $36.10
             </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>
 
-      <mj-section padding="0">
+      <mj-section padding="0 40px 5px 0">
         <mj-group>
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" color="#fb1c00" font-weight="700" letter-spacing=".5px" font-size="12px">
+            <mj-text align="right" color="#fb1c00" font-weight="700" letter-spacing=".5px" font-size="12px" padding-right="0" padding-left="0">
               FREE SHIPPING
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" color="#fb1c00" font-weight="700" font-size="12px">
-              -$36.10
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0" color="#fb1c00" font-weight="700" font-size="12px">
+              - $36.10
             </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>
+
+
 
       <mj-section padding="5px 0px">
         <mj-column>
@@ -347,42 +355,48 @@
       </mj-section>
 
 
-      <mj-section padding="0">
+
+      <mj-section padding="0 40px 5px 0">
         <mj-group>
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
               Total Before Tax:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
               $1,131.98
             </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>
 
-      <mj-section padding="0">
+
+
+      <mj-section padding="0 40px 5px 0">
         <mj-group>
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
-              Estimated Tax
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
+              Estimated Tax:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" font-size="12px">
+            <mj-text align="right" letter-spacing=".5px" font-size="12px" padding-left="0" padding-right="0">
               $0.00
             </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>
 
+
+
+
       <mj-section padding="5px 0px">
         <mj-column>
           <mj-divider border-width="2px" border-style="solid" border-color="#ededed" padding="0 20px" />
@@ -390,23 +404,27 @@
       </mj-section>
 
 
-      <mj-section padding="0">
+
+      <mj-section padding="0 40px 5px 0">
         <mj-group>
           <mj-column width="50%">
           </mj-column>
           <mj-column width="30%">
-            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="13px">
+            <mj-text align="right" letter-spacing=".5px" font-size="13px" padding-left="0" padding-right="0" font-weight="700">
               Order Total:
             </mj-text>
 
           </mj-column>
           <mj-column width="20%">
-            <mj-text align="right" letter-spacing=".5px" font-weight="700" font-size="13px">
+            <mj-text align="right" letter-spacing=".5px" font-size="13px" padding-left="0" padding-right="0" font-weight="700">
               $1,131.98
             </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>
+
+
+
 
 
       <mj-section padding="10px 0px">
