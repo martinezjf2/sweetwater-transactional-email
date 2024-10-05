@@ -1,5 +1,7 @@
 <mjml>
   <mj-head>
+
+    <mj-title>Thank You for your purchase!</mj-title>
     <mj-style>
       * {
         box-sizing: border-box;
